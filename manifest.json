@@ -6,7 +6,9 @@
   "version": "1.0",
 
   "permissions": [
-    "webRequest", "webRequestBlocking"
+      "webRequest",
+      "webRequestBlocking",
+      "cross-domain-content": ["https://www.youtube.com"]
   ],
  
   "background": {

@@ -1,0 +1,19 @@
+{
+
+  "description": "blocking certain songs on youtube autoplay",
+  "manifest_version": 2,
+  "name": "youtubeBlocker",
+  "version": "0.0.0",
+  "main": "yt.js",
+  "permissions": [
+      "webRequest",
+      "webRequestBlocking"
+  ],
+
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "url-parse": "^1.0.5",
+    "request": "^2.65.0"
+  }
+
+}
